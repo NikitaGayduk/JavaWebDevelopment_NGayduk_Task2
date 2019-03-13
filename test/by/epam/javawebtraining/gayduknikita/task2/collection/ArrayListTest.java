@@ -57,7 +57,7 @@ public class ArrayListTest {
     public void replaceTest() {
         Object[] result = {data[0], data[2], data[2]};
         fillListByData012();
-        list.replace(1, data[2]);
+        assertEquals(data[1],list.replace(1, data[2]));
         assertArrayEquals(result,list.toArray());
     }
 

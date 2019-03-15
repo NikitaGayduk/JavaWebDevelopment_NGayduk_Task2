@@ -1,7 +1,6 @@
 package by.epam.javawebtraining.gayduknikita.task2.collection;
 
 import java.util.Arrays;
-import java.util.Objects;
 
 public class ArrayList implements List {
 
